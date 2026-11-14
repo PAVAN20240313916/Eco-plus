@@ -20,7 +20,11 @@ const allowedOrigins = [
 
 app.use(cors({
   origin: function (origin, callback) {
-    if (!origin || allowedOrigins.includes(origin)) {
+    if (
+      !origin ||
+      allowedOrigins.includes(origin) ||
+      origin.endsWith('.vercel.app')
+    ) {
       callback(null, true);
     } else {
       callback(new Error('Not allowed by CORS'));
@@ -30,6 +34,26 @@ app.use(cors({
 }));
 
 app.use(express.json({ limit: '1mb' }));
+
+let dbInitPromise = null;
+function ensureDbReady() {
+  if (!dbInitPromise) {
+    dbInitPromise = initDatabase().catch((err) => {
+      dbInitPromise = null;
+      throw err;
+    });
+  }
+  return dbInitPromise;
+}
+
+app.use('/api', async (req, res, next) => {
+  try {
+    await ensureDbReady();
+    next();
+  } catch (err) {
+    next(err);
+  }
+});
 
 // Health check endpoint
 app.get('/api/health', (req, res) => {
@@ -69,7 +93,7 @@ app.use((err, req, res, next) => {
 
 async function startServer() {
   try {
-    await initDatabase();
+    await ensureDbReady();
     app.listen(PORT, () => {
       console.log(`🚀 EcoPulse AI Backend running at http://localhost:${PORT}`);
       console.log(`🩺 Health check: http://localhost:${PORT}/api/health`);
@@ -80,4 +104,8 @@ async function startServer() {
   }
 }
 
-startServer();
+if (!process.env.VERCEL) {
+  startServer();
+}
+
+export default app;
