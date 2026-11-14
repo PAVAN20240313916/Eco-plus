@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #F5F1E8;
+    background-image: radial-gradient(#DED8C8 1px, transparent 1px);
+    background-size: 24px 24px;
+    color: #12231B;
+    @apply font-sans antialiased;
+  }
+
+  h1, h2 {
+    letter-spacing: -0.02em;
+  }
+}
+
+@layer utilities {
+  .glass-card {
+    background-color: #FFFDF9;
+    border: 1px solid #DED8C8;
+    box-shadow: 0 2px 10px rgba(18, 35, 27, 0.04), 0 1px 0 rgba(255, 255, 255, 0.8) inset;
+  }
+
+  .eco-gradient-text {
+    @apply bg-gradient-to-r from-[#47777B] via-[#2F585C] to-[#D9532F] bg-clip-text text-transparent;
+  }
+
+  .eco-btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-[#47777B] px-4 py-2.5 text-sm font-semibold text-[#FFFDF9] shadow-md shadow-[#47777B]/25 hover:bg-[#355D61] hover:shadow-[#47777B]/35 active:scale-[0.98] transition-all disabled:opacity-50 disabled:pointer-events-none;
+  }
+
+  .eco-btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-xl bg-[#FFFDF9] border border-[#C7BFA9] px-4 py-2.5 text-sm font-semibold text-[#12231B] shadow-sm hover:bg-[#ECE6D6] hover:border-[#827A69] transition-all disabled:opacity-50 disabled:pointer-events-none;
+  }
+}
+
+/* Custom warm botanical scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #ECE6D6;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #C7BFA9;
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #47777B;
+}

@@ -1,0 +1,337 @@
+{
+  "organizations": [
+    {
+      "id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "name": "Annapurna Grand Kitchen & Urban Bistro, Bengaluru",
+      "email": "demo@ecopulse.io",
+      "password_hash": "$2a$10$t0n28RN01nyuiHKx5pyErOrYxHCQjbaQsv.Q3A7hxXGRyfUFiWxOS",
+      "business_type": "Restaurant / Cloud Kitchen",
+      "created_at": "2026-11-14T05:49:38.598Z"
+    },
+    {
+      "id": "34d0746c-70b4-45a1-8f2d-fcd845f89892",
+      "name": "meghanas",
+      "email": "pavankumarn087@gmail.com",
+      "password_hash": "$2a$10$zf7xYUIq8IneiXhcW./1lOrhjfWr85HhT7JBIJYF.DamLYbAdPr8O",
+      "business_type": "Restaurant / Cloud Kitchen / Darshini",
+      "created_at": "2026-11-14T05:52:48.940Z"
+    }
+  ],
+  "inventory": [
+    {
+      "id": "90d67844-009e-4689-9cd2-86add6b1abe0",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Fresh Malai Paneer",
+      "category": "Dairy",
+      "quantity": 20,
+      "unit": "kg",
+      "cost_per_unit": 380,
+      "expiration_date": "2026-11-16",
+      "created_at": "2026-11-14T05:49:38.598Z"
+    },
+    {
+      "id": "c1ace82f-cff1-4691-9387-59b182507a48",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Amul Taaza Toned Milk",
+      "category": "Dairy",
+      "quantity": 35,
+      "unit": "L",
+      "cost_per_unit": 56,
+      "expiration_date": "2026-11-15",
+      "created_at": "2026-11-14T05:49:38.598Z"
+    },
+    {
+      "id": "c1d2d768-3038-492b-b201-dccf274e6520",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Ratnagiri Alphonso Mangoes",
+      "category": "Produce",
+      "quantity": 25,
+      "unit": "kg",
+      "cost_per_unit": 180,
+      "expiration_date": "2026-11-16",
+      "created_at": "2026-11-14T05:49:38.598Z"
+    },
+    {
+      "id": "79e29a61-0e6e-400e-a163-ed13fa30cd53",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Fresh Palak (Spinach) & Coriander",
+      "category": "Produce",
+      "quantity": 14,
+      "unit": "kg",
+      "cost_per_unit": 65,
+      "expiration_date": "2026-11-15",
+      "created_at": "2026-11-14T05:49:38.598Z"
+    },
+    {
+      "id": "3eea4dd1-9f03-492c-9909-92f374610091",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "India Gate Classic Basmati Rice",
+      "category": "Dry Goods",
+      "quantity": 50,
+      "unit": "kg",
+      "cost_per_unit": 115,
+      "expiration_date": "2027-03-14",
+      "created_at": "2026-11-14T05:49:38.598Z"
+    },
+    {
+      "id": "cf1e7bd4-bf16-4d53-bf7b-e192c1b78aad",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Fresh Tandoori Chicken Cuts",
+      "category": "Meat & Poultry",
+      "quantity": 16,
+      "unit": "kg",
+      "cost_per_unit": 260,
+      "expiration_date": "2026-11-17",
+      "created_at": "2026-11-14T05:49:38.598Z"
+    },
+    {
+      "id": "795999a9-1c10-42c2-a0a8-f890a96e6022",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Whole Wheat Tandoori Roti & Parotta Batch",
+      "category": "Bakery",
+      "quantity": 45,
+      "unit": "units",
+      "cost_per_unit": 18,
+      "expiration_date": "2026-11-15",
+      "created_at": "2026-11-14T05:49:38.598Z"
+    },
+    {
+      "id": "8a437c6e-97f6-4799-b3b6-0c10df43af70",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Dal Makhani & Paneer Butter Masala",
+      "category": "Prepared Foods",
+      "quantity": 12,
+      "unit": "portions",
+      "cost_per_unit": 240,
+      "expiration_date": "2026-11-14",
+      "created_at": "2026-11-14T05:49:38.598Z"
+    },
+    {
+      "id": "62f6ef44-2bb3-4759-bed6-c6ff02e9be2d",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Fresh Dahi (Set Curd)",
+      "category": "Dairy",
+      "quantity": 15,
+      "unit": "kg",
+      "cost_per_unit": 75,
+      "expiration_date": "2026-11-18",
+      "created_at": "2026-11-14T05:49:38.598Z"
+    },
+    {
+      "id": "db1240ef-6f61-44d3-9a32-02ef8deb38c1",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Nasik Red Onions & Roma Tomatoes",
+      "category": "Produce",
+      "quantity": 30,
+      "unit": "kg",
+      "cost_per_unit": 45,
+      "expiration_date": "2026-11-17",
+      "created_at": "2026-11-14T05:49:38.598Z"
+    },
+    {
+      "id": "0f97f8f4-144c-4632-a0c5-38917cde576d",
+      "organization_id": "34d0746c-70b4-45a1-8f2d-fcd845f89892",
+      "item_name": "chicken",
+      "category": "Meat & Poultry",
+      "quantity": 20,
+      "unit": "kg",
+      "cost_per_unit": 180,
+      "expiration_date": "2026-11-17",
+      "created_at": "2026-11-14T05:53:55.189Z"
+    }
+  ],
+  "waste_logs": [
+    {
+      "id": "df1d5a7a-fec0-4ad3-b035-a64999ea4d7d",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Steamed Basmati Rice Batch",
+      "quantity_wasted": 4.5,
+      "unit": "kg",
+      "reason": "Over-preparation",
+      "financial_loss": 517.5,
+      "carbon_impact": 6.75,
+      "log_date": "2026-11-08",
+      "created_at": "2026-11-08T05:49:38.598Z"
+    },
+    {
+      "id": "11f37f47-1743-433e-bb74-ac5fc908cff3",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Fresh Palak & Methi Greens",
+      "quantity_wasted": 3.5,
+      "unit": "kg",
+      "reason": "Trimmings/Prep Waste",
+      "financial_loss": 227.5,
+      "carbon_impact": 4.2,
+      "log_date": "2026-11-09",
+      "created_at": "2026-11-09T05:49:38.598Z"
+    },
+    {
+      "id": "425b06ee-b523-4d37-b7e3-e2e29d86b072",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Amul Toned Milk",
+      "quantity_wasted": 6,
+      "unit": "L",
+      "reason": "Spoilage/Expiration",
+      "financial_loss": 336,
+      "carbon_impact": 34.8,
+      "log_date": "2026-11-10",
+      "created_at": "2026-11-10T05:49:38.598Z"
+    },
+    {
+      "id": "ac00b87b-d78a-4f69-99df-e61359b69b58",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Awadhi Chicken Dum Biryani Prep",
+      "quantity_wasted": 2.5,
+      "unit": "kg",
+      "reason": "Over-preparation",
+      "financial_loss": 650,
+      "carbon_impact": 31.25,
+      "log_date": "2026-11-11",
+      "created_at": "2026-11-11T05:49:38.598Z"
+    },
+    {
+      "id": "d442a903-a302-4fb3-8e2d-509eea913cec",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Roma Tomatoes",
+      "quantity_wasted": 4,
+      "unit": "kg",
+      "reason": "Quality Failure",
+      "financial_loss": 180,
+      "carbon_impact": 4.8,
+      "log_date": "2026-11-12",
+      "created_at": "2026-11-12T05:49:38.598Z"
+    },
+    {
+      "id": "e55d3d90-2f8a-49b7-b365-f5762af35888",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Thali & Banquet Buffet Leftovers",
+      "quantity_wasted": 6,
+      "unit": "kg",
+      "reason": "Customer Leftovers",
+      "financial_loss": 1440,
+      "carbon_impact": 21,
+      "log_date": "2026-11-13",
+      "created_at": "2026-11-13T05:49:38.598Z"
+    },
+    {
+      "id": "1a8383a2-b061-4a89-aa55-6f626aaca950",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Garlic Naan & Kulcha Dough Batch",
+      "quantity_wasted": 3,
+      "unit": "kg",
+      "reason": "Over-preparation",
+      "financial_loss": 270,
+      "carbon_impact": 5.4,
+      "log_date": "2026-11-14",
+      "created_at": "2026-11-14T05:49:38.598Z"
+    }
+  ],
+  "ai_insights": [
+    {
+      "id": "bf333668-819f-4264-a5e3-a8a79220efb1",
+      "organization_id": "34d0746c-70b4-45a1-8f2d-fcd845f89892",
+      "insight_type": "DEMAND_FORECAST",
+      "recommendations": {
+        "summary": "EcoPulse AI analyzed 0 active inventory items and 0 historical waste records. Identified 0 high-urgency batches requiring immediate diversion to avoid ₹0.00 in financial loss.",
+        "predictedDemandWarnings": [
+          {
+            "item": "Daily Produce",
+            "reason": "Historical weekend foot-traffic fluctuation creates prep variance.",
+            "recommendedAction": "Apply 15% safety buffer deduction on Friday morning prep orders."
+          }
+        ],
+        "surplusRepurposingIdeas": [],
+        "carbonReductionTip": "Timely intervention on your high-risk batches prevents an estimated 0.0 kg CO2e emissions, preserving Indian commercial kitchen margins by up to 18%."
+      },
+      "created_at": "2026-11-14T05:53:14.238Z"
+    },
+    {
+      "id": "2928fa82-a8e9-4123-b110-f506b28b4a09",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "insight_type": "DEMAND_FORECAST",
+      "recommendations": {
+        "summary": "Forecast indicates over-purchasing in Dairy (Amul Taaza Toned Milk & Fresh Malai Paneer) leading to 41% of your weekly carbon footprint. Weekend evening rain forecast in Bengaluru will raise dine-in hot thali and chai/kulfi orders by 25%.",
+        "predictedDemandWarnings": [
+          {
+            "item": "Amul Taaza Toned Milk",
+            "reason": "35 L on hand with a 1-day expiration horizon exceeds standard weekday beverage velocity.",
+            "recommendedAction": "Reduce next supplier indent by 30% from 35 L to 24 L; convert 10 L immediately into fresh paneer/chenna or masala chai batch."
+          },
+          {
+            "item": "Fresh Malai Paneer",
+            "reason": "20 kg approaching cold-room shelf-life threshold (2 days remaining at 4 °C).",
+            "recommendedAction": "Marinate 8 kg in tandoori tikka spices today to extend cold-chain usability by 72 hours."
+          },
+          {
+            "item": "Fresh Palak (Spinach) & Coriander",
+            "reason": "14 kg leafy produce loses moisture rapidly above 5 °C.",
+            "recommendedAction": "Blanch and puree 6 kg into Palak Paneer base gravy today to lock freshness for 4 days."
+          }
+        ],
+        "surplusRepurposingIdeas": [
+          {
+            "ingredient": "Amul Taaza Toned Milk",
+            "recipeIdea": "Curdle into fresh artisanal chenna for high-margin Rasmalai, Paneer Bhurji, or slow-simmered Khoya."
+          },
+          {
+            "ingredient": "Whole Wheat Tandoori Roti & Parotta Batch",
+            "recipeIdea": "Crisp and season into spiced Masala Khakhra bites, Kothu Parotta specials, or Shahi Tukda dessert trays."
+          },
+          {
+            "ingredient": "Ratnagiri Alphonso Mangoes",
+            "recipeIdea": "Blend ripe pulp into Mango Lassi specials, Aamras thali add-ons, or freeze in 500 g vacuum pouches."
+          }
+        ],
+        "carbonReductionTip": "Redirecting your 35 L dairy and 20 kg paneer at-risk batches prevents 319.0 kg CO2e emissions—equivalent to avoiding 420 km of passenger car travel."
+      },
+      "created_at": "2026-11-13T17:49:38.598Z"
+    }
+  ],
+  "surplus_listings": [
+    {
+      "id": "57699568-c86c-4091-97ff-21adf34f5e85",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Whole Wheat Tandoori Roti & Parotta (Fresh Surplus)",
+      "category": "Bakery",
+      "quantity": 30,
+      "unit": "units",
+      "expiration_date": "2026-11-14",
+      "matched_partner": "Robin Hood Army - Bengaluru Chapter",
+      "partner_type": "Food Bank",
+      "status": "MATCHED",
+      "pickup_window": "Today 17:00 - 19:30 IST",
+      "carbon_saved": 27,
+      "created_at": "2026-11-14T05:49:38.598Z"
+    },
+    {
+      "id": "d0294123-f5a4-424f-81d1-2476ee016327",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Dal Makhani & Steamed Rice Trays",
+      "category": "Prepared Foods",
+      "quantity": 12,
+      "unit": "portions",
+      "expiration_date": "2026-11-14",
+      "matched_partner": "Akshaya Patra Community Kitchen",
+      "partner_type": "Soup Kitchen",
+      "status": "AVAILABLE",
+      "pickup_window": "Today 20:00 - 21:30 IST",
+      "carbon_saved": 42,
+      "created_at": "2026-11-14T05:49:38.598Z"
+    },
+    {
+      "id": "f85a76eb-eb02-42e4-b733-15523d4da1d1",
+      "organization_id": "7f9d8a30-1b2c-4e5f-9a0d-8e7c6b5a4f32",
+      "item_name": "Vegetable Prep Trimmings & Filter Coffee Grounds",
+      "category": "Produce",
+      "quantity": 25,
+      "unit": "kg",
+      "expiration_date": "2026-11-15",
+      "matched_partner": "Hasiru Dala Bio-Compost & Biogas Hub",
+      "partner_type": "Composting Partner",
+      "status": "DISPATCHED",
+      "pickup_window": "Today 15:00 IST",
+      "carbon_saved": 30,
+      "created_at": "2026-11-14T05:49:38.598Z"
+    }
+  ]
+}
